@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media representation of Osimiri Kenneth</title>
+    <link rel="stylesheet" href="./Styles/media.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">About me</a></li>
+          <li><a href="./form.html">Form</a></li>
+          <li><a href="./table.html">Table</a></li>
+          <li><a href="./media.html">Media</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Frontend Engineering Student Journey 🚀</h1>
+        <p>
+          Welcome to the exciting world of a frontend engineering student
+          enrolled in a 12-month diploma program at a tech school! 💻🎓
+        </p>
+      </section>
+
+      <section id="student-profile">
+        <h2>Meet Our Student 👩‍💻</h2>
+        <picture>
+          <source srcset="./Images/Kenlaptop.jpg" media="(min-width: 1024px)" />
+          <source srcset="./Images/Kentablet.jpg" media="(min-width: 768px)" />
+          <source srcset="./Images/Kenmobile.jpg" media="(min-width: 480px)" />
+          <img
+            src="./Images/Kendefault.jpg"
+            alt="Frontend engineering student working on a laptop"
+          />
+        </picture>
+      </section>
+
+      <section id="media" class="media-container">
+        <div>
+          <h2>Learning in Action 📚</h2>
+          <video controls>
+            <source src="./Video/Howtostartcoding.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div>
+          <h2>Coding Tunes 🎵</h2>
+          <audio controls>
+            <source src="./Audio/Higher.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+        <div>
+          <h2>Tech School Campus 🏫</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61927591.040140085!2d-29.29904768312972!3d-18.674754010908707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4119de407e7f3b2d%3A0x83eae7d809fcb7bf!2sAltschool%20Africa!5e0!3m2!1sen!2sng!4v1725010477323!5m2!1sen!2sng"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    
+  </body>
+</html>
